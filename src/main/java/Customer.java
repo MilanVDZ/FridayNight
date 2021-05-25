@@ -67,6 +67,7 @@ public class Customer {
         this.beersThatTheyDrunk = beersThatTheyDrunk;
     }
 
+    // MILAN
 
     public boolean feelingConfident(){
         //check if they drank more than 5 beers, if they have a condom and if they're DTF

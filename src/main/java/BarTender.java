@@ -28,6 +28,7 @@ public class BarTender extends Staff{
     }
 
 
+    // GREGORY
 
     public void buyBeer(Customer customer, int amount){
         //check if customer has enough money

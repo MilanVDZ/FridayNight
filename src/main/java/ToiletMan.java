@@ -16,7 +16,7 @@ public class ToiletMan extends Staff {
         this.toiletPaperStock = toiletPaperStock;
     }
 
-
+    // DENIS
 
     private void fillToiletStallsWithToiletPaper(int amountOfStalls) throws Exception {
         toiletPaperStock -= amountOfStalls;
