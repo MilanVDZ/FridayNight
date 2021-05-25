@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 public class TestBartender {
         @Test
         public void buyBeertest() {
-                Customer customer = new Customer("Mike",14,1.00,true,false);
-                BarTender barTender = new BarTender("Dirk", 1.5, 3.5);
+                Customer customer = new Customer("Mike",25,2.00,true,true);
+                BarTender barTender = new BarTender("Dirk", 2.5, 5);
                 barTender.buyBeer(customer,2);
                 Assertions.assertEquals(1,customer.getEuros());
                 Assertions.assertEquals(0,customer.getBeersThatTheyDrunk());
@@ -14,9 +14,9 @@ public class TestBartender {
 
         @Test
         public void buyCoctailTest(){
-                Customer customer = new Customer("Mike",14,1.00,true,false);
-                BarTender barTender = new BarTender("Dirk", 1.5, 3.5);
-                barTender.buyCocktail(customer,2);
+                Customer customer = new Customer("Jonas",27,1.00,true,true);
+                BarTender barTender = new BarTender("Frank", 2.5, 5);
+                barTender.buyCocktail(customer,1);
                 Assertions.assertEquals(1,customer.getEuros());
                 Assertions.assertEquals(0,customer.getBeersThatTheyDrunk());
         }
